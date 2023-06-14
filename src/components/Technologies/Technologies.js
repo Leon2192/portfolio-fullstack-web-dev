@@ -21,7 +21,7 @@ const Technologies = () =>  (
           <ListParagraph>
             Experiencia con Javascript <br />
             React.js, Next js, Angular <br />
-            React Native
+            React Native, typescript
           </ListParagraph>
         </ListContainer>
       </ListItem>

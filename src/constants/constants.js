@@ -48,7 +48,7 @@ export const projects = [
     title: 'Go pro',
     description: "Desarrollo de reseller de la marca Go Pro desarrollado con las tecnologias React js, Next Js y tailwind css.",
     image: '/images/gopro.png',
-    tags: ['React', 'ChatEngine', 'Firebase'],
+    tags: ['React', 'Next js', 'Tailwind CSS'],
     source: 'https://gopro-landing-page.vercel.app/',
     visit: 'https://github.com/Leon2192/gopro-landing-page',
     id: 3,

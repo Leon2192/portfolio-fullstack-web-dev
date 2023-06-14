@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "react-scripts start --openssl-legacy-provider"
   },
   "dependencies": {
     "next": "10.2.3",

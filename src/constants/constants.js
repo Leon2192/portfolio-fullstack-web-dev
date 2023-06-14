@@ -22,7 +22,7 @@ export const projects = [
     description: "Clon de aplicacion Netflix, implementando autenticacion a traves de Next Auth y data fetching con TMDB(Api).",
     image: '/images/netflix.png',
     tags: ['React', 'Next js', 'Tailwind CSS', 'Mongo'],
-    source: 'https://vercel.com/leon2192/netflix-clone-tailwind-nextjs',
+    source: 'https://netflix-clone-tailwind-nextjs.vercel.app/auth',
     visit: 'https://github.com/Leon2192/netflix-clone-tailwind-nextjs',
     id: 2,
   },

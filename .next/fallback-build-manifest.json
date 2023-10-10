@@ -1,6 +1,6 @@
 {
   "polyfillFiles": [
-    "static/chunks/fallback/polyfills.js"
+    "static/chunks/polyfills.js"
   ],
   "devFiles": [
     "static/chunks/fallback/react-refresh.js"
@@ -10,6 +10,7 @@
     "static/chunks/fallback/amp.js"
   ],
   "lowPriorityFiles": [],
+  "rootMainFiles": [],
   "pages": {
     "/_app": [
       "static/chunks/fallback/webpack.js",

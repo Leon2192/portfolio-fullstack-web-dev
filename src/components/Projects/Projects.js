@@ -15,7 +15,7 @@ const Projects = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await axios.get('http://54.89.109.196:3002/projects');
+        const response = await axios.get('https://44.216.124.74/projects');
         setProjects(response.data);
         console.log('esta es la data', response.data)
         cconsolelog('estos son los proyectos', projects)
@@ -37,7 +37,7 @@ const Projects = () => {
           <BlogCard key={i}>
             <Img src={p.image} />
             <TitleContent>
-              <HeaderThree title>{p.name}</HeaderThree> 
+              <HeaderThree title>{p.name}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
@@ -45,7 +45,7 @@ const Projects = () => {
             <div>
               <TitleContent>Stack</TitleContent>
               <TagList>
-                <Tag>{p.technology}</Tag> 
+                <Tag>{p.technology}</Tag>
               </TagList>
             </div>
             <UtilityList>

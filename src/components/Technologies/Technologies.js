@@ -4,12 +4,14 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 
 import React from 'react';
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Tecnologias</SectionTitle>
     <SectionText>
-    A lo largo de mi trayectoria como desarrollador, he adquirido un amplio conocimiento y experiencia en diversas tecnologías y herramientas, incluyendo React, React Native, Node.js, MongoDB, SQL, Next.js y Angular, entre otras. Estas habilidades me permiten crear soluciones web innovadoras y escalables, así como aplicaciones móviles eficientes y orientadas al usuario.
+      A lo largo de mi trayectoria como desarrollador, he adquirido un amplio conocimiento y experiencia en diversas tecnologías y herramientas, incluyendo React, React Native, Node.js, MongoDB, SQL, Next.js y Angular, entre otras. Estas habilidades me permiten crear soluciones web innovadoras y escalables, así como aplicaciones móviles eficientes y orientadas al usuario.
+      <br />
+      Actualmente estoy aprendiendo Cloud Computing y Docker.
     </SectionText>
     <List>
       <ListItem>
@@ -21,7 +23,7 @@ const Technologies = () =>  (
           <ListParagraph>
             Experiencia con Javascript <br />
             React.js, Next js, Angular <br />
-            React Native, typescript
+            React Native, Typescript.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -33,8 +35,8 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experiencia con  <br />
-            Node y bases de datos <br />
-            relacionales y no relacionales.
+            Node js y bases de datos <br />
+            relacionales y no relacionales. Redis, Docker.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,10 +45,10 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Cloud</ListTitle>
           <ListParagraph>
             Experiencia con <br />
-            herramientas como Figma.
+            Amazon Web Services (AWS).
           </ListParagraph>
         </ListContainer>
       </ListItem>

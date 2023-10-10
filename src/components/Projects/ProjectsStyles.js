@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:200px;
+  height:300px;
   object-fit: cover;
   overflow: hidden;
 `
@@ -73,7 +73,7 @@ export const CardInfo = styled.p`
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   

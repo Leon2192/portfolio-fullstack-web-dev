@@ -15,10 +15,7 @@ const Projects = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await axios.get('https://44.216.124.74/projects', {
-          httpsAgent: new https.Agent({ rejectUnauthorized: false }),
-        });
-
+        const response = await axios.get('https://44.216.124.74/projects');
         setProjects(response.data);
         console.log('esta es la data', response.data)
         cconsolelog('estos son los proyectos', projects)

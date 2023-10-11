@@ -6,9 +6,7 @@ import { projects } from '../../constants/constants';
 import axios from 'axios';
 
 const Projects = () => {
-
-
-
+{/*
   const [projects, setProjects] = useState([]);
   const [error, setError] = useState(null);
 
@@ -25,7 +23,7 @@ const Projects = () => {
     };
 
     fetchProjects();
-  }, []);
+  }, []); */}
 
 
   return (
